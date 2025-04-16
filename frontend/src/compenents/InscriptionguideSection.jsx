@@ -29,7 +29,7 @@ export default function InscriptionguideSection(){
 
                             <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                                 <h3 className="text-lg font-semibold text-[#1A237E] mb-2">ما هي المستندات المطلوبة للتسجيل؟</h3>
-                                <p className="text-gray-600">المستندات المطلوبة هي: صورة شخصية، نسخة من الهوية، شهادة التعليم السابق</p>
+                                <p className="text-gray-600">المستندات المطلوبة هي: صورة شخصية، نسخة من الهوية لولي الأمر، نسخة عقد الازدياد</p>
                             </div>
 
                             <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
