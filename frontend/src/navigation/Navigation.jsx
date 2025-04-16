@@ -37,10 +37,10 @@ function Navigation() {
               الرئيسية
             </Link>
             <Link 
-              to="/about" 
+              to="/solar_image" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium"
             >
-              حول المدرسة
+              معالجة الصور
             </Link>
             <Link 
               to="/courses" 
@@ -76,11 +76,11 @@ function Navigation() {
               الرئيسية
             </Link>
             <Link 
-              to="/about" 
+              to="/solar_image" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium block py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              حول المدرسة
+            معالجة الصور    
             </Link>
             <Link 
               to="/courses" 

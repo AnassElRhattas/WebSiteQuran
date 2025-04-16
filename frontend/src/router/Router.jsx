@@ -1,7 +1,8 @@
 import {createBrowserRouter} from 'react-router-dom';
-import Home from'../pages/home';
-import About from'../pages/About';
+import Home from '../pages/Home';
+import About from '../pages/About';
 import Layout from '../layout/Layout';
+import SolarImageProcessor from '../pages/SolarImageProcessor';
 
 export const Router = createBrowserRouter ([
     {
@@ -12,10 +13,9 @@ export const Router = createBrowserRouter ([
                 path: '/'
             },
             {
-                element: <About />,
-                path: '/about'
+                element: <SolarImageProcessor />,
+                path: '/solar_image'
             }
         ]
     }
- 
 ]);
