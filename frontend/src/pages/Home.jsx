@@ -8,9 +8,9 @@ export default function LandingPage() {
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                     {/* Text content - unchanged */}
                     <div>
-                    <h2 className="text-4xl font-bold text-[#1A237E] mb-4">كتاب مسجد الإمام مالك</h2>
+                        <h2 className="text-4xl font-bold text-[#1A237E] mb-4">كتاب مسجد الإمام مالك</h2>
                         <p style={{ fontFamily: 'KFGQPC_Uthmanic_Script_HAFS' }}
-                         className="text-gray-700 text-2xl mb-6 leading-loose">
+                            className="text-gray-700 text-2xl mb-6 leading-loose">
                             اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ ﴿١﴾ خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ ﴿٢﴾ اقْرَأْ وَرَبُّكَ الْأَكْرَمُ ﴿٣﴾
                         </p>
                         <button className="inline-flex items-center px-6 py-3 border border-[#1A237E] text-[#1A237E] rounded-full hover:bg-[#1A237E] hover:text-white transition">
@@ -122,7 +122,7 @@ export default function LandingPage() {
                         خريجوا الكتاب
                     </h2>
                     <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-                        نفتخر بطلابنا الذين أتموا حفظ القرآن الكريم 
+                        نفتخر بطلابنا الذين أتموا حفظ القرآن الكريم
                     </p>
 
                     <div className="grid md:grid-cols-3 gap-8">
@@ -225,6 +225,40 @@ export default function LandingPage() {
                 </div>
             </section>
 
+            {/* Evenets Section */}
+            <section className="bg-white py-16 px-6" dir="rtl">
+                <div className="max-w-7xl mx-auto">
+                    <h2 className="text-3xl font-bold text-center text-[#1A237E] mb-12">أخبار وفعاليات</h2>
+                    <div className="grid md:grid-cols-3 gap-8">
+                        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                            <img src="/images/event1.jpg" alt="فعالية" className="w-full h-48 object-cover" />
+                            <div className="p-6">
+                                <span className="text-sm text-[#1A237E]">15 رمضان 1445</span>
+                                <h3 className="text-xl font-semibold text-[#1A237E] mt-2">حفل تخريج الدفعة الجديدة</h3>
+                                <p className="text-gray-600 mt-2">حفل تكريم الطلاب المتفوقين في حفظ القرآن الكريم</p>
+                            </div>
+                        </div>
+                        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                            <img src="/images/event1.jpg" alt="فعالية" className="w-full h-48 object-cover" />
+                            <div className="p-6">
+                                <span className="text-sm text-[#1A237E]">15 رمضان 1445</span>
+                                <h3 className="text-xl font-semibold text-[#1A237E] mt-2">حفل تخريج الدفعة الجديدة</h3>
+                                <p className="text-gray-600 mt-2">حفل تكريم الطلاب المتفوقين في حفظ القرآن الكريم</p>
+                            </div>
+                        </div>
+                        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                            <img src="/images/event1.jpg" alt="فعالية" className="w-full h-48 object-cover" />
+                            <div className="p-6">
+                                <span className="text-sm text-[#1A237E]">15 رمضان 1445</span>
+                                <h3 className="text-xl font-semibold text-[#1A237E] mt-2">حفل تخريج الدفعة الجديدة</h3>
+                                <p className="text-gray-600 mt-2">حفل تكريم الطلاب المتفوقين في حفظ القرآن الكريم</p>
+                            </div>
+                        </div>
+                        {/* Ajouter d'autres événements */}
+                    </div>
+                </div>
+            </section>
+
             {/* Mobile App Download Section */}
             <section className="bg-gray-50 py-16 px-6" dir="rtl">
                 <div className="max-w-7xl mx-auto">
@@ -245,7 +279,7 @@ export default function LandingPage() {
                                     <svg className="w-6 h-6 text-[#1A237E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span>دروس القرآن الكريم المباشرة</span>
+                                    <span>إدارة تامة وكاملة للكتاب</span>
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <svg className="w-6 h-6 text-[#1A237E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -257,7 +291,7 @@ export default function LandingPage() {
                                     <svg className="w-6 h-6 text-[#1A237E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span>اختبارات التجويد التفاعلية</span>
+                                    <span>التواصل السربع بين الطالب والمدرس</span>
                                 </li>
                             </ul>
 
@@ -287,6 +321,126 @@ export default function LandingPage() {
                     </div>
                 </div>
             </section>
+
+
+            {/* Inscription guide */}
+            <section className="bg-gray-50 py-16 px-6" dir="rtl">
+                <div className="max-w-7xl mx-auto">
+                    <h2 className="text-3xl font-bold text-center text-[#1A237E] mb-12">الأسئلة الشائعة</h2>
+
+                    {/* Video and FAQ Grid */}
+                    <div className="grid md:grid-cols-2 gap-12 items-start">
+                        {/* Video Guide */}
+                        <div className="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 className="text-xl font-semibold text-[#1A237E] mb-4">دليل التسجيل المرئي</h3>
+                            <div className="aspect-video rounded-lg overflow-hidden">
+                                <iframe
+                                    className="w-full h-full"
+                                    src="/videos/registration-guide.mp4"
+                                    title="دليل التسجيل"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                            <p className="mt-4 text-gray-600">شاهد الفيديو التوضيحي لمعرفة خطوات التسجيل في المدرسة</p>
+                        </div>
+
+                        {/* FAQ Questions */}
+                        <div className="space-y-4">
+                            <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <h3 className="text-lg font-semibold text-[#1A237E] mb-2">كيف يمكنني التسجيل في المدرسة؟</h3>
+                                <p className="text-gray-600">يمكنك التسجيل من خلال ملء نموذج التسجيل في موقعنا أو زيارة مقر المدرسة</p>
+                            </div>
+
+                            <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <h3 className="text-lg font-semibold text-[#1A237E] mb-2">ما هي المستندات المطلوبة للتسجيل؟</h3>
+                                <p className="text-gray-600">المستندات المطلوبة هي: صورة شخصية، نسخة من الهوية، شهادة التعليم السابق</p>
+                            </div>
+
+                            <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <h3 className="text-lg font-semibold text-[#1A237E] mb-2">ما هي رسوم التسجيل؟</h3>
+                                <p className="text-gray-600">تختلف الرسوم حسب البرنامج المختار. يرجى الاتصال بنا للحصول على التفاصيل</p>
+                            </div>
+
+                            <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <h3 className="text-lg font-semibold text-[#1A237E] mb-2">متى يبدأ العام الدراسي الجديد؟</h3>
+                                <p className="text-gray-600">يبدأ العام الدراسي في شهر سبتمبر من كل عام. التسجيل متاح طوال العام</p>
+                            </div>
+
+                            {/* Registration CTA */}
+                            <div className="bg-[#1A237E]/5 p-6 rounded-lg mt-8">
+                                <h3 className="text-xl font-semibold text-[#1A237E] mb-4">مستعد للتسجيل؟</h3>
+                                <p className="text-gray-700 mb-4">يمكنك البدء في رحلة تعلم القرآن الكريم معنا الآن</p>
+                                <button className="bg-[#1A237E] text-white px-8 py-3 rounded-full hover:bg-[#1A237E]/90 transition-colors inline-flex items-center">
+                                    ابدأ التسجيل الآن
+                                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Statistics Section */}
+            <section className="bg-[#1A237E] py-16 px-6 text-white" dir="rtl">
+                <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <h3 className="text-4xl font-bold mb-2">500+</h3>
+                        <p>طالب متخرج</p>
+                    </div>
+                    <div>
+                        <h3 className="text-4xl font-bold mb-2">15</h3>
+                        <p>أستاذ متخصص</p>
+                    </div>
+                    <div>
+                        <h3 className="text-4xl font-bold mb-2">10</h3>
+                        <p>سنوات خبرة</p>
+                    </div>
+                    <div>
+                        <h3 className="text-4xl font-bold mb-2">20</h3>
+                        <p>برنامج تعليمي</p>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* Programs Section */}
+            <section className="bg-gray-50 py-16 px-6" dir="rtl">
+                <div className="max-w-7xl mx-auto">
+                    <h2 className="text-3xl font-bold text-center text-[#1A237E] mb-4">برامجنا التعليمية</h2>
+                    <div className="grid md:grid-cols-3 gap-8 mt-12">
+                        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                            <div className="w-16 h-16 bg-[#1A237E]/10 rounded-full flex items-center justify-center mb-4">
+                                <svg className="w-8 h-8 text-[#1A237E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-semibold text-[#1A237E] mb-2">تحفيظ القرآن الكريم</h3>
+                            <p className="text-gray-600">برنامج متكامل لحفظ القرآن الكريم مع التجويد</p>
+                        </div>
+                        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                            <div className="w-16 h-16 bg-[#1A237E]/10 rounded-full flex items-center justify-center mb-4">
+                                <svg className="w-8 h-8 text-[#1A237E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-semibold text-[#1A237E] mb-2">تحفيظ الأحاديث النبوية</h3>
+                            <p className="text-gray-600">برنامج متكامل لحفظ الأحاديث النبوية</p>
+                        </div>
+                        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                            <div className="w-16 h-16 bg-[#1A237E]/10 rounded-full flex items-center justify-center mb-4">
+                                <svg className="w-8 h-8 text-[#1A237E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-semibold text-[#1A237E] mb-2">تحفيظ المنظومات</h3>
+                            <p className="text-gray-600">برنامج متكامل لحفظ المنظومات</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             {/* Contact Section */}
             <section className="bg-white py-16 px-6" dir="rtl">
