@@ -37,7 +37,7 @@ function Navigation() {
               الرئيسية
             </Link>
             <Link 
-              to="#" 
+              to="/solar_image" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium"
             >
               معالجة الصور
@@ -76,7 +76,7 @@ function Navigation() {
               الرئيسية
             </Link>
             <Link 
-              to="#" 
+              to="/solar_image" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium block py-2"
               onClick={() => setIsMenuOpen(false)}
             >
