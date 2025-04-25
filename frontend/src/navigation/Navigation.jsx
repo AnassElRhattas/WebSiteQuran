@@ -37,19 +37,19 @@ function Navigation() {
               الرئيسية
             </Link>
             <Link 
-              to="/solar_image" 
+              to="#" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium"
             >
               معالجة الصور
             </Link>
             <Link 
-              to="/courses" 
+              to="#" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium"
             >
               الدورات
             </Link>
             <Link 
-              to="/contact" 
+              to="/#" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium"
             >
               اتصل بنا
@@ -57,7 +57,7 @@ function Navigation() {
             
             {/* CTA Button */}
             <Link 
-              to="/register" 
+              to="/#" 
               className="inline-flex items-center px-6 py-2 border border-[#1A237E] text-[#1A237E] rounded-full hover:bg-[#1A237E] hover:text-white transition-colors"
             >
               سجل الآن
@@ -76,21 +76,21 @@ function Navigation() {
               الرئيسية
             </Link>
             <Link 
-              to="/solar_image" 
+              to="#" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium block py-2"
               onClick={() => setIsMenuOpen(false)}
             >
             معالجة الصور    
             </Link>
             <Link 
-              to="/courses" 
+              to="#" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium block py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               الدورات
             </Link>
             <Link 
-              to="/contact" 
+              to="#" 
               className="text-gray-700 hover:text-[#1A237E] transition-colors font-medium block py-2"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -99,7 +99,7 @@ function Navigation() {
             
             {/* Mobile CTA Button */}
             <Link 
-              to="/register" 
+              to="#" 
               className="inline-flex items-center px-6 py-2 border border-[#1A237E] text-[#1A237E] rounded-full hover:bg-[#1A237E] hover:text-white transition-colors justify-center"
               onClick={() => setIsMenuOpen(false)}
             >

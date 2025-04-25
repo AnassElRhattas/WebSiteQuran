@@ -15,6 +15,10 @@ export const Router = createBrowserRouter ([
             {
                 element: <SolarImageProcessor />,
                 path: '/solar_image'
+            },
+            {
+                element: <About />,
+                path: '/about'
             }
         ]
     }
