@@ -1,0 +1,13 @@
+#menu-toggle:checked ~ .mobile-menu {
+  display: block;
+}
+
+#menu-toggle:checked + label svg {
+  display: none;
+}
+
+#menu-toggle:checked + label::after {
+  content: '×';
+  font-size: 24px;
+  color: #666;
+}
