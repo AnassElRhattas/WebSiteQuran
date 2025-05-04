@@ -45,7 +45,7 @@ export default function ProfessorsSection(){
                             />
                         </div>
                         <div className="p-8">
-                            <h3 className="text-2xl font-semibold text-[#1A237E] mb-4">الأستاذ عبد الغني بياض</h3>
+                            <h3 className="text-2xl font-semibold text-[#1A237E] mb-4">الأستاذ عبد الرحمن كريدان</h3>
                             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
                                 خبير في علم التجويد وتعليم القرآن للأطفال والمبتدئين
                             </p>
